@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: grey;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+td {
+    float: left;
+    clear: none;
+}
+
+input[type=radio] {
+    display: inline-block;
+}
+
+#answers {
+    text-align: left;
+}
+
+

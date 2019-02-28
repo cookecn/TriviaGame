@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div id="wrapper">
+    <div class="container">
         <h1>Colby's Entertainment Trivia!</h1>
 
         <div id="buttons">
         <button id="start">Click To Begin!</button>
     </div>
 
+    <br>
+
         <div class="container">
+
+            <br>
 
             <div id="timeLeft">
 
@@ -35,7 +40,7 @@
                         <h3>How many questions on this list are about video games?</h3>
                     </span>
                     <td>
-                        <input type="radio" name="q1" value="false"> 3</br>
+                        <input type="radio" name="q1" value="false"> 3 </br>
                     </td>
                     <td>
                         <input type="radio" name="q1" value="false"> 7 </br>
@@ -46,6 +51,7 @@
                     <td>
                         <input type="radio" name="q1" value="false"> 6 </br>
                     </td>
+                    <br>
 
                     <span id="question2">
                         <h3>Which metal band does Tim like?</h3>
@@ -62,6 +68,7 @@
                     <td>
                         <input type="radio" name="q2" value="true"> Metallica </br>
                     </td>
+                    <br>
 
                     <span id="question3">
                         <h3>In which Harry Potter book/movie does Harry receive the cloak of invisibility?</h3>
@@ -78,6 +85,7 @@
                     <td>
                         <input type="radio" name="q3" value="false"> The Deathly Hallows Pt.2 </br>
                     </td>
+                    <br>
 
                     <span id="question4">
                         <h3>Which Star Wars was the first movie?</h3>
@@ -94,6 +102,7 @@
                     <td>
                         <input type="radio" name="q4" value="false"> Star Wars Episode III </br>
                     </td>
+                    <br>
 
                     <span id="question5">
                         <h3>What video game series has the most amount of games?</h3>
@@ -110,6 +119,7 @@
                     <td>
                         <input type="radio" name="q5" value="false"> Final Fantasy</br>
                     </td>
+                    <br>
 
                     <span id="question6">
                         <h3>Which video game series is reknown for its musical score?</h3>
@@ -124,8 +134,9 @@
                         <input type="radio" name="q6" value="false"> Kingdom Hearts </br>
                     </td>
                     <td>
-                        <input type="radio" name="q6" value="true"> All of the Above</br>
+                        <input type="radio" name="q6" value="true"> All of the Above </br>
                     </td>
+                    <br>
 
                     <span id="question7">
                         <h3>Which gaming console has the most memes?</h3>
@@ -142,6 +153,7 @@
                     <td>
                         <input type="radio" name="q7" value="false"> Xbox 360 </br>
                     </td>
+                    <br>
 
                     <span id="question8">
                         <h3>Which video game developer is best known for their work on the "Elder Scrolls" series?</h3>
@@ -158,6 +170,7 @@
                     <td>
                         <input type="radio" name="q8" value="true"> Bethesda </br>
                     </td>
+                    <br>
 
                     <span id="question9">
                         <h3>Who has the most subscribers on YouTube?</h3>
@@ -174,23 +187,29 @@
                     <td>
                         <input type="radio" name="q9" value="false"> sUbToPeWdS </br>
                     </td>
+                    <br>
 
                     <span id="question10">
                         <h3>Which video game boss is most infamous for being the most difficult?</h3>
                     </span>
+
                     <td>
                         <input type="radio" name="q10" value="true"> "The Nameless King" - Dark Souls 3 </br>
                     </td>
+
                     <td>
                         <input type="radio" name="q10" value="false"> "Emerald Weapon" - Final Fantasy VII </br>
                     </td>
+                    
                     <td>
                         <input type="radio" name="q10" value="false"> "Skolas" - Destiny </br>
                     </td>
+                    
                     <td>
                         <input type="radio" name="q10" value="false"> "Lingering Will" - Kingdom Hearts 2.5 Remix </br>
                     </td>
                 </tr>
+                <br>
 
             </div>
 
@@ -206,7 +225,7 @@
             <h2>Questions Not Answered:<span id="notAnswered"></span></h2>
         </div>
 
-
+    <script src="assets/javascript/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
