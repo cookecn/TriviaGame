@@ -17,7 +17,7 @@ h2,
 h3 {
     color: Blue;
 }
-
+/* Trying to get the "td" or "tr" to inline...
 td {
     float: left;
     clear: none;
@@ -26,6 +26,7 @@ td {
 input[type=radio] {
     display: inline-block;
 }
+*/
 
 #answers {
     text-align: left;
