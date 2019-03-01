@@ -17,6 +17,7 @@
     <div class="container">
         <h1>Colby's Entertainment Trivia!</h1>
 
+        <!--HTMl Start Button (functionality in JQUery-->
         <div id="buttons">
             <button id="start">Click To Begin!</button>
         </div>
@@ -26,7 +27,7 @@
         <div class="container">
 
             <br>
-
+            <!--Set HTML section for the Time Remaining-->
             <div id="timeLeft">
 
                 <h2>Time Left:
@@ -34,7 +35,7 @@
                 </h2>
 
             </div>
-
+            <!--Questions and Radio selectors for answers, with values to help identify if true or false.-->
             <p id="questions" class="show"></p>
 
             <div id="allQuestions">
@@ -220,11 +221,11 @@
         </div>
 
         <br>
-
+        <!--Submit button to push correct answers, wrong answers, and questions un-answered to the DOM, below. (functionality in JQuery-->
         <div id="buttons">
             <button id="submit">Submit Your Answers!</button>
         </div>
-
+        <!--Div containing correct, incorrect, and not-answered questions to appear after submit button is clicked (functionality in JQuery-->
         <div id="answers">
             <h2>Answers Guessed Correctly:<span id="correctAnswers"></span></h2>
             <h2>Answers Guessed Incorrectly:<span id="inCorrectAnswers"></span></h2>
